@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <section id="result">
+            <input type="text" class="display" id="screen" placeholder="0" readonly>
+        </section>
+        <section id="keyPads">
+            <div class="row">
+                <input type="button" class="number" value="7" onclick="screenDisplay('7')">
+                <input type="button" class="number" value="8" onclick="screenDisplay('8')">
+                <input type="button" class="number" value="9" onclick="screenDisplay('9')">
+                <input type="button" class="number" value="/" onclick="screenDisplay('/')">
+            </div>
+
+            <div class="row">
+                <input type="button" class="number" value="4" onclick="screenDisplay('4')">
+                <input type="button" class="number" value="5" onclick="screenDisplay('5')">
+                <input type="button" class="number" value="6" onclick="screenDisplay('6')">
+                <input type="button" class="number" value="*" onclick="screenDisplay('*')">
+            </div>
+
+            <div class="row">
+                <input type="button" class="number" value="1" onclick="screenDisplay('1')">
+                <input type="button" class="number" value="2" onclick="screenDisplay('2')">
+                <input type="button" class="number" value="3" onclick="screenDisplay('3')">
+                <input type="button" class="number" value="+" onclick="screenDisplay('+')">
+            </div>
+
+            <div class="row">
+                <input type="button" class="number" value="." onclick="screenDisplay('.')">
+                <input type="button" class="number" value="0" onclick="screenDisplay('0')">
+                <input type="button" class="number" value="%" onclick="screenDisplay('%')">
+                <input type="button" class="number" value="-" onclick="screenDisplay('-')">
+            </div>
+
+            <div class="row">
+                <input type="button" class="number" value="C" onclick="clearDisplay()">
+                <input type="button" class="number" value="DEL" onclick="deleteLast()">
+                <input type="button" class="number equal" value="=" onclick="calculate()">
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

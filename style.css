@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkblue;
+}
+
+main{
+    background-color: aqua;
+    width: 30%;
+    height: 60vh;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+#result{
+    width: 100%;
+}
+.display{
+    background-color: #f0f0f0;
+    width: 95%;
+    height: 8vh;
+}
+
+#keyPads{
+    width: 100%;
+    margin-top: 25px;
+}
+
+.number{
+    background-color: green;
+    width: 70px;
+    height: 40px;
+    margin: 2px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+.number:hover{
+    background-color: lightseagreen;
+}
+.equal{
+    width: 150px;
+    
+}
